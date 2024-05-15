@@ -48,6 +48,10 @@ public class _CardGameManager : MonoBehaviour
     private int score; // Variable to keep track of the score
     private bool gameStart;
 
+    private int comboCount; // Track combo count
+    private float comboTimer; // Track time for combo
+    private const float comboTimeLimit = 2.0f; // Time limit for making a combo in seconds
+
     void Awake()
     {
         Instance = this;
@@ -83,6 +87,8 @@ public class _CardGameManager : MonoBehaviour
         cardSelected = spriteSelected = -1;
         cardLeft = cards.Length;
         score = 0; // Initialize score
+        comboCount = 0; // Initialize combo count
+        comboTimer = 0; // Initialize combo timer
         UpdateScoreLabel(); // Update the score display
 
         // allocate sprite to card
@@ -258,6 +264,19 @@ public class _CardGameManager : MonoBehaviour
                 cards[cardId].Inactive();
                 cardLeft -= 2;
                 score++; // Increase the score
+
+                // Check for combo
+                if (comboTimer > 0)
+                {
+                    comboCount++;
+                    score += comboCount; // Apply combo bonus to score
+                }
+                else
+                {
+                    comboCount = 1; // Reset combo count
+                }
+                comboTimer = comboTimeLimit; // Reset combo timer
+
                 UpdateScoreLabel(); // Update the score display
                 CheckGameWin();
             }
@@ -266,6 +285,7 @@ public class _CardGameManager : MonoBehaviour
                 // incorrectly matched
                 cards[cardSelected].Flip();
                 cards[cardId].Flip();
+                comboCount = 0; // Reset combo count on failure
             }
             cardSelected = spriteSelected = -1;
         }
@@ -299,13 +319,23 @@ public class _CardGameManager : MonoBehaviour
         info.SetActive(i);
     }
 
-    // track elapsed time
+    // track elasped time
     private void Update()
     {
         if (gameStart)
         {
             time += Time.deltaTime;
             timeLabel.text = "Time: " + time.ToString("F2") + "s";
+
+            // Update combo timer
+            if (comboTimer > 0)
+            {
+                comboTimer -= Time.deltaTime;
+            }
+            else
+            {
+                comboCount = 0; // Reset combo count when timer expires
+            }
         }
     }
 
