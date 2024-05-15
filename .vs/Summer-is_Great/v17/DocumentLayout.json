@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Development\\Unity_Projects\\Summer-is_Great\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9DE2A7D-8AC2-2252-DF89-B1ED0CE8D334}|Assembly-CSharp.csproj|d:\\development\\unity_projects\\summer-is_great\\assets\\scripts\\_cardgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DE2A7D-8AC2-2252-DF89-B1ED0CE8D334}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\_cardgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9DE2A7D-8AC2-2252-DF89-B1ED0CE8D334}|Assembly-CSharp.csproj|d:\\development\\unity_projects\\summer-is_great\\assets\\scripts\\coregame\\_cardgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9DE2A7D-8AC2-2252-DF89-B1ED0CE8D334}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coregame\\_cardgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9DE2A7D-8AC2-2252-DF89-B1ED0CE8D334}|Assembly-CSharp.csproj|d:\\development\\unity_projects\\summer-is_great\\assets\\scripts\\coregame\\_card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9DE2A7D-8AC2-2252-DF89-B1ED0CE8D334}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coregame\\_card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9DE2A7D-8AC2-2252-DF89-B1ED0CE8D334}|Assembly-CSharp.csproj|d:\\development\\unity_projects\\summer-is_great\\assets\\scripts\\coregame\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9DE2A7D-8AC2-2252-DF89-B1ED0CE8D334}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coregame\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioPlayer.cs",
+              "DocumentMoniker": "D:\\Development\\Unity_Projects\\Summer-is_Great\\Assets\\Scripts\\CoreGame\\AudioPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoreGame\\AudioPlayer.cs",
+              "ToolTip": "D:\\Development\\Unity_Projects\\Summer-is_Great\\Assets\\Scripts\\CoreGame\\AudioPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoreGame\\AudioPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:31:53.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Card.cs",
+              "DocumentMoniker": "D:\\Development\\Unity_Projects\\Summer-is_Great\\Assets\\Scripts\\CoreGame\\_Card.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoreGame\\_Card.cs",
+              "ToolTip": "D:\\Development\\Unity_Projects\\Summer-is_Great\\Assets\\Scripts\\CoreGame\\_Card.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoreGame\\_Card.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAkwHAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:24:02.451Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_CardGameManager.cs",
-              "DocumentMoniker": "D:\\Development\\Unity_Projects\\Summer-is_Great\\Assets\\Scripts\\_CardGameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\_CardGameManager.cs",
-              "ToolTip": "D:\\Development\\Unity_Projects\\Summer-is_Great\\Assets\\Scripts\\_CardGameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\_CardGameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAhAAAA",
+              "DocumentMoniker": "D:\\Development\\Unity_Projects\\Summer-is_Great\\Assets\\Scripts\\CoreGame\\_CardGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoreGame\\_CardGameManager.cs",
+              "ToolTip": "D:\\Development\\Unity_Projects\\Summer-is_Great\\Assets\\Scripts\\CoreGame\\_CardGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoreGame\\_CardGameManager.cs",
+              "ViewState": "AQIAACIBAAAAAAAAAAAkwD0BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:30:33.086Z",
+              "WhenOpened": "2024-05-15T19:17:07.451Z",
               "EditorCaption": ""
             }
           ]

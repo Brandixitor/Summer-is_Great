@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class _CardGameManager : MonoBehaviour
 {
-
     public static _CardGameManager Instance;
     public static int gameSize = 2;
+
     // gameobject instance
     [SerializeField]
     private GameObject prefab;
@@ -38,22 +38,28 @@ public class _CardGameManager : MonoBehaviour
     private Slider sizeSlider;
     [SerializeField]
     private Text timeLabel;
+    [SerializeField]
+    private Text scoreLabel; // Text object to display the score
     private float time;
 
     private int spriteSelected;
     private int cardSelected;
     private int cardLeft;
+    private int score; // Variable to keep track of the score
     private bool gameStart;
 
     void Awake()
     {
         Instance = this;
     }
+
     void Start()
     {
         gameStart = false;
         panel.SetActive(false);
+        PreloadCardImage();
     }
+
     // Purpose is to allow preloading of panel, so that it does not lag when it loads
     // Call this in the start method to preload all sprites at start of the script
     private void PreloadCardImage()
@@ -62,6 +68,7 @@ public class _CardGameManager : MonoBehaviour
             spritePreload.SpriteID = i;
         spritePreload.gameObject.SetActive(false);
     }
+
     // Start a game
     public void StartCardGame()
     {
@@ -75,6 +82,9 @@ public class _CardGameManager : MonoBehaviour
         // renew gameplay variables
         cardSelected = spriteSelected = -1;
         cardLeft = cards.Length;
+        score = 0; // Initialize score
+        UpdateScoreLabel(); // Update the score display
+
         // allocate sprite to card
         SpriteCardAllocation();
         StartCoroutine(HideFace());
@@ -82,9 +92,10 @@ public class _CardGameManager : MonoBehaviour
     }
 
     // Initialize cards, size, and position based on size of game
-    private void SetGamePanel(){
+    private void SetGamePanel()
+    {
         // if game is odd, we should have 1 card less
-        int isOdd = gameSize % 2 ;
+        int isOdd = gameSize % 2;
 
         cards = new _Card[gameSize * gameSize - isOdd];
         // remove all gameobject from parent
@@ -96,13 +107,14 @@ public class _CardGameManager : MonoBehaviour
         RectTransform panelsize = panel.transform.GetComponent(typeof(RectTransform)) as RectTransform;
         float row_size = panelsize.sizeDelta.x;
         float col_size = panelsize.sizeDelta.y;
-        float scale = 1.0f/gameSize;
-        float xInc = row_size/gameSize;
-        float yInc = col_size/gameSize;
+        float scale = 1.0f / gameSize;
+        float xInc = row_size / gameSize;
+        float yInc = col_size / gameSize;
         float curX = -xInc * (float)(gameSize / 2);
         float curY = -yInc * (float)(gameSize / 2);
 
-        if(isOdd == 0) {
+        if (isOdd == 0)
+        {
             curX += xInc / 2;
             curY += yInc / 2;
         }
@@ -143,12 +155,14 @@ public class _CardGameManager : MonoBehaviour
         }
 
     }
+
     // reset face-down rotation of all cards
     void ResetFace()
     {
         for (int i = 0; i < gameSize; i++)
             cards[i].ResetRotation();
     }
+
     // Flip all cards after a short period
     IEnumerator HideFace()
     {
@@ -158,13 +172,14 @@ public class _CardGameManager : MonoBehaviour
             cards[i].Flip();
         yield return new WaitForSeconds(0.5f);
     }
+
     // Allocate pairs of sprite to card instances
     private void SpriteCardAllocation()
     {
         int i, j;
         int[] selectedID = new int[cards.Length / 2];
         // sprite selection
-        for (i = 0; i < cards.Length/2; i++)
+        for (i = 0; i < cards.Length / 2; i++)
         {
             // get a random sprite
             int value = Random.Range(0, sprites.Length - 1);
@@ -195,23 +210,27 @@ public class _CardGameManager : MonoBehaviour
 
                 cards[value].SpriteID = selectedID[i];
             }
-
     }
+
     // Slider update gameSize
-    public void SetGameSize() {
+    public void SetGameSize()
+    {
         gameSize = (int)sizeSlider.value;
         sizeLabel.text = gameSize + " X " + gameSize;
     }
+
     // return Sprite based on its id
     public Sprite GetSprite(int spriteId)
     {
         return sprites[spriteId];
     }
+
     // return card back Sprite
     public Sprite CardBack()
     {
         return cardBack;
     }
+
     // check if clickable
     public bool canClick()
     {
@@ -219,6 +238,7 @@ public class _CardGameManager : MonoBehaviour
             return false;
         return true;
     }
+
     // card onclick event
     public void cardClicked(int spriteId, int cardId)
     {
@@ -229,13 +249,16 @@ public class _CardGameManager : MonoBehaviour
             cardSelected = cardId;
         }
         else
-        { // second card selected
+        {
+            // second card selected
             if (spriteSelected == spriteId)
             {
                 //correctly matched
                 cards[cardSelected].Inactive();
                 cards[cardId].Inactive();
                 cardLeft -= 2;
+                score++; // Increase the score
+                UpdateScoreLabel(); // Update the score display
                 CheckGameWin();
             }
             else
@@ -247,6 +270,7 @@ public class _CardGameManager : MonoBehaviour
             cardSelected = spriteSelected = -1;
         }
     }
+
     // check if game is completed
     private void CheckGameWin()
     {
@@ -257,25 +281,37 @@ public class _CardGameManager : MonoBehaviour
             AudioPlayer.Instance.PlayAudio(1);
         }
     }
+
     // stop game
     private void EndGame()
     {
         gameStart = false;
         panel.SetActive(false);
     }
+
     public void GiveUp()
     {
         EndGame();
     }
+
     public void DisplayInfo(bool i)
     {
         info.SetActive(i);
     }
-    // track elasped time
-    private void Update(){
-        if (gameStart) {
+
+    // track elapsed time
+    private void Update()
+    {
+        if (gameStart)
+        {
             time += Time.deltaTime;
-            timeLabel.text = "Time: " + time + "s";
+            timeLabel.text = "Time: " + time.ToString("F2") + "s";
         }
+    }
+
+    // Update the score display
+    private void UpdateScoreLabel()
+    {
+        scoreLabel.text = "Score: " + score;
     }
 }
