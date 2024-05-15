@@ -15,7 +15,7 @@ D:/Development/Unity_Projects/Summer-is_Great
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55267
+55559
 Successfully changed project path to: D:/Development/Unity_Projects/Summer-is_Great
 D:/Development/Unity_Projects/Summer-is_Great
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Development/Unity_Projects/Summer-is_Great
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20048] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2053771889 [EditorId] 2053771889 [Version] 1048832 [Id] WindowsEditor(7,Brandixitor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8548] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3319688083 [EditorId] 3319688083 [Version] 1048832 [Id] WindowsEditor(7,Brandixitor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20048] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2053771889 [EditorId] 2053771889 [Version] 1048832 [Id] WindowsEditor(7,Brandixitor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8548] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3319688083 [EditorId] 3319688083 [Version] 1048832 [Id] WindowsEditor(7,Brandixitor) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 87.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.38f1 (7a2fa5d8d101)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -68,50 +68,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.015226 seconds.
+Registered in 0.016828 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 436 ms
-Refreshing native plugins compatible for Editor in 90.69 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 468 ms
+Refreshing native plugins compatible for Editor in 100.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.592 seconds
+- Completed reload, in  1.591 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1593ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (1591ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1263ms)
-			LoadAssemblies (176ms)
+		EndReloadAssembly (1246ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (962ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (967ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (643ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				InitializePlatformSupportModulesInManaged (657ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005592 seconds.
+Registered in 0.005825 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -122,43 +122,43 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.302 seconds
+- Completed reload, in  2.394 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2303ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (2396ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1892ms)
-			LoadAssemblies (136ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2055ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (444ms)
+			SetupTypeCache (439ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (1218ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1368ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (1019ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (1157ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (46.4 KB). Loaded Objects now: 3554.
-Memory consumption went from 111.6 MB to 111.6 MB.
-Total: 4.745100 ms (FindLiveObjects: 0.406900 ms CreateObjectMapping: 0.228600 ms MarkObjects: 3.933500 ms  DeleteObjects: 0.175100 ms)
+Unloading 23 unused Assets / (46.8 KB). Loaded Objects now: 3555.
+Memory consumption went from 111.7 MB to 111.7 MB.
+Total: 4.030100 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.207100 ms MarkObjects: 3.438900 ms  DeleteObjects: 0.098800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,211 +174,99 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8311.674990 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(e5b365779aec4124fa5250d9e9c0c434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 20425.499754 seconds.
+  path: Assets/Scripts/Core
+  artifactKey: Guid(505478307f6ec9945a886e3f4e1a6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes using Guid(e5b365779aec4124fa5250d9e9c0c434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed88c5186b904da07f69d0b280860a3') in 0.016106 seconds 
+Start importing Assets/Scripts/Core using Guid(505478307f6ec9945a886e3f4e1a6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2759ce18656037d1de30b3977cf882') in 0.014813 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.647165 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 6.254267 seconds.
+  path: Assets/Scripts/Core/CoreGame.cs
+  artifactKey: Guid(a8477236556cabc47ad2769500ee27d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.009363 seconds 
+Start importing Assets/Scripts/Core/CoreGame.cs using Guid(a8477236556cabc47ad2769500ee27d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc834f7549893b6649dfac32424de5ed') in 0.067959 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.532203 seconds.
-  path: Assets/Scenes/MemoryCardGame.unity
-  artifactKey: Guid(60a6fb806100e334b91355c9e1c19fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 71.171535 seconds.
+  path: Assets/Scripts/Core/CoreGame.cs
+  artifactKey: Guid(a8477236556cabc47ad2769500ee27d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/MemoryCardGame.unity using Guid(60a6fb806100e334b91355c9e1c19fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df2e2164597578fee397b304a5dfd8e') in 0.011370 seconds 
+Start importing Assets/Scripts/Core/CoreGame.cs using Guid(a8477236556cabc47ad2769500ee27d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767854333c8b5b97073c736b4d35a720') in 0.021790 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.820146 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(60a6fb806100e334b91355c9e1c19fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5.616147 seconds.
+  path: Assets/Scripts/Core/Cards.cs
+  artifactKey: Guid(cf0581454bb11ed40ba091a174a79d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Game.unity using Guid(60a6fb806100e334b91355c9e1c19fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5cf2d3924387a68215e14bb94d09e6') in 0.009512 seconds 
+Start importing Assets/Scripts/Core/Cards.cs using Guid(cf0581454bb11ed40ba091a174a79d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370ce8b4af4c3e6bf5b8b5e577111f09') in 0.015300 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 215.966449 seconds.
+  path: Assets/Scripts/Core/Cards.cs
+  artifactKey: Guid(cf0581454bb11ed40ba091a174a79d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Core/Cards.cs using Guid(cf0581454bb11ed40ba091a174a79d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301427d5e8b03dd203b6479d52a744d4') in 0.058638 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.413335 seconds.
+  path: Assets/Scripts/Core/Audio.cs
+  artifactKey: Guid(107b08de2ca6c254ca0880329628e7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Core/Audio.cs using Guid(107b08de2ca6c254ca0880329628e7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124e22210d657eb56ca5dbda9ff12442') in 0.016783 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005067 seconds.
+Registered in 0.006095 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.665 seconds
+- Completed reload, in  2.101 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2666ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (2102ms)
+		BeginReloadAssembly (213ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2319ms)
-			LoadAssemblies (138ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1750ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (511ms)
+			SetupTypeCache (383ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (1494ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1137ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (1267ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3557.
-Memory consumption went from 111.2 MB to 111.2 MB.
-Total: 5.244700 ms (FindLiveObjects: 0.689300 ms CreateObjectMapping: 0.775500 ms MarkObjects: 3.749800 ms  DeleteObjects: 0.028900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005017 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  2.771 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2772ms)
-		BeginReloadAssembly (204ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (2433ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (495ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (1628ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (1403ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3560.
-Memory consumption went from 111.2 MB to 111.2 MB.
-Total: 4.557000 ms (FindLiveObjects: 0.311400 ms CreateObjectMapping: 0.245200 ms MarkObjects: 3.974400 ms  DeleteObjects: 0.025100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 428.524112 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.021899 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006628 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  2.298 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2298ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1953ms)
-			LoadAssemblies (147ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (418ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (1259ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (61ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (1030ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (978ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3566.
-Memory consumption went from 111.3 MB to 111.2 MB.
-Total: 4.775400 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.396800 ms MarkObjects: 3.939600 ms  DeleteObjects: 0.060300 ms)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3561.
+Memory consumption went from 111.4 MB to 111.4 MB.
+Total: 3.849200 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.201000 ms MarkObjects: 3.283900 ms  DeleteObjects: 0.073800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -394,167 +282,259 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.491647 seconds.
-  path: Assets/CardGame.unitypackage
-  artifactKey: Guid(a0dfb02ab8ef67b449d0699c5b5c37b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 357.764479 seconds.
+  path: Assets/Scripts/Core/Audio.cs
+  artifactKey: Guid(107b08de2ca6c254ca0880329628e7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CardGame.unitypackage using Guid(a0dfb02ab8ef67b449d0699c5b5c37b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a90bb8a6a783722a867c413a863c29') in 0.024074 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Scripts/Core/Audio.cs using Guid(107b08de2ca6c254ca0880329628e7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9394eaf615207c487a77d1b9eb9e6b') in 0.013977 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.675154 seconds.
+  Time since last request: 405.212302 seconds.
   path: Assets/MemoryCardGame.unity
-  artifactKey: Guid(ead71cb8c8175eb48a65343b540568d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  artifactKey: Guid(42cae8a9658f7154b83c6dffb511f508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MemoryCardGame.unity using Guid(ead71cb8c8175eb48a65343b540568d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8702ebcb9d24de8f873d75c3cc1898c2') in 0.002394 seconds 
+Start importing Assets/MemoryCardGame.unity using Guid(42cae8a9658f7154b83c6dffb511f508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f89750d4b28ad7629b994578119c535') in 0.012208 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.540002 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(a1fdaeb9381116145bbd2a1433c57ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 35.637519 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(8e02335b1325a2a4c93de3e7a3c8c948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites using Guid(a1fdaeb9381116145bbd2a1433c57ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6725b8bdf14e7ab45a197245049ecb15') in 0.014593 seconds 
+Start importing Assets/Prefab using Guid(8e02335b1325a2a4c93de3e7a3c8c948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e544850dc88354d3666120b749a827b') in 0.013359 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 26.816232 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(ead71cb8c8175eb48a65343b540568d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.040647 seconds.
+  path: Assets/Prefab/CardPrefab.prefab
+  artifactKey: Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Game.unity using Guid(ead71cb8c8175eb48a65343b540568d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9318b0fc4bde0523c9fb382dd11c3246') in 0.009519 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006263 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  2.684 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2686ms)
-		BeginReloadAssembly (250ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (2301ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (488ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (1497ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (80ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (1238ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3571.
-Memory consumption went from 111.9 MB to 111.9 MB.
-Total: 5.174600 ms (FindLiveObjects: 0.422200 ms CreateObjectMapping: 0.457900 ms MarkObjects: 4.264600 ms  DeleteObjects: 0.028700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/Prefab/CardPrefab.prefab using Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17e6bc04efce2b5628351e45d1c8fc8') in 0.049937 seconds 
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 33.197080 seconds.
-  path: Assets/Images
-  artifactKey: Guid(2342293e62f73ab4da2ed7f2ab039c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 4.731841 seconds.
+  path: Assets/Prefab/Card_Prefab.prefab
+  artifactKey: Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Images using Guid(2342293e62f73ab4da2ed7f2ab039c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0406cbd1f8d4cdb9f69a1938e1c2052') in 0.021154 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Prefab/Card_Prefab.prefab using Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e358b3a3662fe7e20564dc503be9b8') in 0.020802 seconds 
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.038728 seconds.
-  path: Assets/Images/card_background.jpg
-  artifactKey: Guid(70b4c232d3f8b9e4db72218f809225ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 52.508321 seconds.
+  path: Assets/Sprites/Cards/bull.jpg
+  artifactKey: Guid(d668530d002e8d5469ce8c008bff8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Images/card_background.jpg using Guid(70b4c232d3f8b9e4db72218f809225ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad35e3b3d65b184f6a45fe38a6da77e5') in 0.122445 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Sprites/Cards/bull.jpg using Guid(d668530d002e8d5469ce8c008bff8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77321409a2f9a510d92f90469334c73') in 0.120787 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Cards/donkey.jpg
+  artifactKey: Guid(8075e831cd8cc24498b449bda8d24adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/donkey.jpg using Guid(8075e831cd8cc24498b449bda8d24adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4aa774be24878d80fe899e617c16122') in 0.034795 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Cards/lion.jpg
+  artifactKey: Guid(a0a32d086012c1b4da9d6f65f9e2625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/lion.jpg using Guid(a0a32d086012c1b4da9d6f65f9e2625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd530992f1bc32b8685d6d7edf89f025') in 0.024869 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Cards/turtle.jpg
+  artifactKey: Guid(6e8d2c028786d764082ea9146346259b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/turtle.jpg using Guid(6e8d2c028786d764082ea9146346259b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253f6d278bdfe6521c5cabf084c01fc6') in 0.030683 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Cards/dog.jpg
+  artifactKey: Guid(e448a2ad02110dc4c8c7dad23177a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/dog.jpg using Guid(e448a2ad02110dc4c8c7dad23177a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825b9eb08f246bf0a890b14da73fdb69') in 0.028777 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Cards/cat.jpg
+  artifactKey: Guid(865a75a0968df25439b8193a79ba37f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/cat.jpg using Guid(865a75a0968df25439b8193a79ba37f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b863a3dc0a983157dff506ad553dd55') in 0.030392 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Cards/sheep.jpg
+  artifactKey: Guid(7fff3ddce358eaf4a91d704ffc8d82a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/sheep.jpg using Guid(7fff3ddce358eaf4a91d704ffc8d82a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c94fecc8c10594548da4824a0b0c182') in 0.022705 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Cards/monkey.jpg
+  artifactKey: Guid(9bc3de9cf8aa02448b379a972c5217a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/monkey.jpg using Guid(9bc3de9cf8aa02448b379a972c5217a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a48a56554b38bf228ab81861d408de7') in 0.027353 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Cards/camel.jpg
+  artifactKey: Guid(1a562a00b08fdcf4083315831d8b5949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/camel.jpg using Guid(1a562a00b08fdcf4083315831d8b5949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2f83c878d6cd8e8ce38751b02feb41') in 0.025852 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Cards/hippo.jpg
+  artifactKey: Guid(29ef1b6172840104c9f894420a6c24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/hippo.jpg using Guid(29ef1b6172840104c9f894420a6c24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ec1ebceb09455b9b8cb3cdae4b68b3') in 0.036084 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Cards/cardback.jpg
+  artifactKey: Guid(531e2065e4cb5224ebadabcfa24ae77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/cardback.jpg using Guid(531e2065e4cb5224ebadabcfa24ae77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c953527a5aee756b8aa85de4de9d9b62') in 0.097373 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Cards/cow.jpg
+  artifactKey: Guid(27816b31fe6ce5b478a98f1030115646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/cow.jpg using Guid(27816b31fe6ce5b478a98f1030115646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74495ca5697ab3ee82569b9ce7308da6') in 0.031445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Cards/mouse.jpg
+  artifactKey: Guid(5e3cb1eac5f41614d9e0e169b96577ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/mouse.jpg using Guid(5e3cb1eac5f41614d9e0e169b96577ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c85603632589adcc0bd77353868f5b') in 0.032172 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Images/floorpanel.jpg
-  artifactKey: Guid(4a62ad6020b2a454fb68d2c1860b49a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Sprites/Cards/pig.jpg
+  artifactKey: Guid(60df95eae4a63a943a48a4e6bf5e5a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Images/floorpanel.jpg using Guid(4a62ad6020b2a454fb68d2c1860b49a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f18a496f5a2c836323a50782470d7b6') in 0.022822 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Sprites/Cards/pig.jpg using Guid(60df95eae4a63a943a48a4e6bf5e5a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc37b7b0452a3a2c482437974f235b1') in 0.028729 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Cards/rhino.jpg
+  artifactKey: Guid(390479ad2ba1e444babe101aade6a474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/rhino.jpg using Guid(390479ad2ba1e444babe101aade6a474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c784ff9426ad844999de7ae23ad9bfd') in 0.026014 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Cards/croc.jpg
+  artifactKey: Guid(a68ac71c5cdec5b41bd14734b370014c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/croc.jpg using Guid(a68ac71c5cdec5b41bd14734b370014c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d92cd8794f4241fa7cef2a273a4c48') in 0.037514 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Cards/rabbit.jpg
+  artifactKey: Guid(4c0fe489c35077e46b45dd925382ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards/rabbit.jpg using Guid(4c0fe489c35077e46b45dd925382ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d328a36a53c0b3667487e2790f495e') in 0.025020 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 168.275477 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(56b662d309142ce42b7e900ac989b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites using Guid(56b662d309142ce42b7e900ac989b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70450e877692946f686d07a92218710') in 0.013988 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.187612 seconds.
+  path: Assets/Sprites/Cards
+  artifactKey: Guid(68947aa0b20f80f4593f4d093bbd4aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Cards using Guid(68947aa0b20f80f4593f4d093bbd4aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72626a58503ee94d94ca8beb7313ee3') in 0.012583 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 75.618799 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(e11f990c2ff64b54da7a248e056e19e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts using Guid(e11f990c2ff64b54da7a248e056e19e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84389b5fb9f3b219d7602ba9557d8115') in 0.020418 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.920874 seconds.
+  path: Assets/Scripts/Core/Cards.cs
+  artifactKey: Guid(cf0581454bb11ed40ba091a174a79d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Core/Cards.cs using Guid(cf0581454bb11ed40ba091a174a79d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba901fa26e206872c652659956b0131') in 0.024259 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006190 seconds.
+Registered in 0.005315 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.714 seconds
+- Completed reload, in  2.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2716ms)
-		BeginReloadAssembly (350ms)
+	ReloadAssembly (2787ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (2236ms)
-			LoadAssemblies (279ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2440ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (447ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (1472ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (1688ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (50ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (1224ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (1391ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3577.
-Memory consumption went from 111.9 MB to 111.9 MB.
-Total: 4.882800 ms (FindLiveObjects: 0.370400 ms CreateObjectMapping: 0.282000 ms MarkObjects: 4.196300 ms  DeleteObjects: 0.032800 ms)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3573.
+Memory consumption went from 111.5 MB to 111.5 MB.
+Total: 6.909500 ms (FindLiveObjects: 0.999000 ms CreateObjectMapping: 0.670300 ms MarkObjects: 5.193300 ms  DeleteObjects: 0.045400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -570,72 +550,208 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 206.750199 seconds.
-  path: Assets/Images/rectangle-gold-frame-with-foliage-pattern-background-vector_53876-109053.avif
-  artifactKey: Guid(6337ddecc99f2ac4884a023d0f3edc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 380.137095 seconds.
+  path: Assets/_Resources
+  artifactKey: Guid(4f1bec7805a09504cad3cf2e979fc448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Images/rectangle-gold-frame-with-foliage-pattern-background-vector_53876-109053.avif using Guid(6337ddecc99f2ac4884a023d0f3edc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090bdafb828a8dae4213a819326c63cb') in 0.041684 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 24.165875 seconds.
-  path: Assets/Images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3YxOTFiYXRjaDItYWRqLTE2YS5qcGc.webp
-  artifactKey: Guid(f114ffe94750a85488081ecd3f203ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3YxOTFiYXRjaDItYWRqLTE2YS5qcGc.webp using Guid(f114ffe94750a85488081ecd3f203ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d60bd1e2300d0fe12cc970d6685c2d1') in 0.020994 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 26.915457 seconds.
-  path: Assets/Images/images.jpg
-  artifactKey: Guid(b15eb6a3331566642a24683b683bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/images.jpg using Guid(b15eb6a3331566642a24683b683bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5970e3dfb46205a8d739c4a536c3536') in 0.058773 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.227991 seconds.
-  path: Assets/Images/images.jpg
-  artifactKey: Guid(b15eb6a3331566642a24683b683bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/images.jpg using Guid(b15eb6a3331566642a24683b683bafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d3a1756221d1c55bf6aa65b2e14936') in 0.058695 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 67.338003 seconds.
-  path: Assets/Images/The-business-of-cultural-intellingence.webp
-  artifactKey: Guid(3506c56808d4cde4e8d2923dbc645516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/The-business-of-cultural-intellingence.webp using Guid(3506c56808d4cde4e8d2923dbc645516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2e735829b69a77a4adce2a9347b48c') in 0.018320 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 13.068493 seconds.
-  path: Assets/Images/beautiful-mandala-background-template-free-vector.jpg
-  artifactKey: Guid(c22187e438768ce47aa34d763777e444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/beautiful-mandala-background-template-free-vector.jpg using Guid(c22187e438768ce47aa34d763777e444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ab4edd368e352e1b4e368d1b0e542b') in 0.020922 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.887669 seconds.
-  path: Assets/Images/beautiful-mandala-background-template-free-vector.jpg
-  artifactKey: Guid(c22187e438768ce47aa34d763777e444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/beautiful-mandala-background-template-free-vector.jpg using Guid(c22187e438768ce47aa34d763777e444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48f6b64c910ba3de824726bc719cfe0') in 0.238336 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 34.958730 seconds.
-  path: Assets/Images/beautiful-mandala-background-template-free-vector.jpg
-  artifactKey: Guid(c22187e438768ce47aa34d763777e444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/beautiful-mandala-background-template-free-vector.jpg using Guid(c22187e438768ce47aa34d763777e444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ed76b0b15bd22eb81214ba6f5046c4') in 0.051217 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/_Resources using Guid(4f1bec7805a09504cad3cf2e979fc448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86d3deeb9102772fb53ad012d844210') in 0.023165 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006057 seconds.
+Registered in 0.004791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.560 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2561ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2166ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (1213ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3576.
+Memory consumption went from 111.5 MB to 111.5 MB.
+Total: 4.258400 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.197000 ms MarkObjects: 3.704500 ms  DeleteObjects: 0.063900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2908ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (2507ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1839ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (1614ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3582.
+Memory consumption went from 111.6 MB to 111.6 MB.
+Total: 4.525300 ms (FindLiveObjects: 0.318200 ms CreateObjectMapping: 0.239700 ms MarkObjects: 3.937600 ms  DeleteObjects: 0.028400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.679614 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(97e661c57bc3a5b4dafbe1488e87c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts using Guid(97e661c57bc3a5b4dafbe1488e87c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61149a0b110fae0c3651e8af15c4f8b') in 0.010854 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.712388 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(6bd8b209bff3ab24d8495478bfc0269a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab using Guid(6bd8b209bff3ab24d8495478bfc0269a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4900f2c78f8a2da03b00bb71a8dc8c') in 0.044738 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027799 seconds.
+  path: Assets/Prefab/CardPrefab.prefab
+  artifactKey: Guid(4fe9fa7b0485c454cac2bfe1511f94fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/CardPrefab.prefab using Guid(4fe9fa7b0485c454cac2bfe1511f94fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9d055ee815dc37f2472a83b8bfe281') in 0.042316 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.819774 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(216f74cef49748d4fa55d7484775f0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio using Guid(216f74cef49748d4fa55d7484775f0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4eb6795f12638bd55c4ac6834dce83') in 0.003742 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.784854 seconds.
+  path: Assets/Audio/FD
+  artifactKey: Guid(4a83520c2f6f3e1498146f4c3b385eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/FD using Guid(4a83520c2f6f3e1498146f4c3b385eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa069bc79d02ad09bf6b271d2eef64ab') in 0.010248 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064588 seconds.
+  path: Assets/Audio/FD/CREAK_Wood_Tree_Creak_04_Quick_mono.wav
+  artifactKey: Guid(d9f4077641fec7542b219c2194f7c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/FD/CREAK_Wood_Tree_Creak_04_Quick_mono.wav using Guid(d9f4077641fec7542b219c2194f7c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b3f7e1c805fe12e33f50de2b0ac997') in 0.076957 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/FD/PUZZLE_Success_Brass_Fanfare_Bright_Wet_stereo.wav
+  artifactKey: Guid(6dfbefc03ba841b4b9dd879cecfb813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/FD/PUZZLE_Success_Brass_Fanfare_Bright_Wet_stereo.wav using Guid(6dfbefc03ba841b4b9dd879cecfb813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97712e14bda2ae3222c4d65f46e879ff') in 0.021811 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.813584 seconds.
+  path: Assets/_Resources/Images/card_background.jpg
+  artifactKey: Guid(70b4c232d3f8b9e4db72218f809225ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Resources/Images/card_background.jpg using Guid(70b4c232d3f8b9e4db72218f809225ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad35e3b3d65b184f6a45fe38a6da77e5') in 0.034913 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Resources/Prefab/Card_Prefab.prefab
+  artifactKey: Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Resources/Prefab/Card_Prefab.prefab using Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c6cbecb47f36762e35b3c463e25396') in 0.008519 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -645,40 +761,100 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.749 seconds
+- Completed reload, in  2.519 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2750ms)
-		BeginReloadAssembly (216ms)
+	ReloadAssembly (2520ms)
+		BeginReloadAssembly (213ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2386ms)
-			LoadAssemblies (145ms)
+		EndReloadAssembly (2171ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (542ms)
+			SetupTypeCache (395ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (1537ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (1475ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (54ms)
+				InitializePlatformSupportModulesInManaged (47ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (1282ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (1254ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3587.
-Memory consumption went from 112.0 MB to 112.0 MB.
-Total: 5.981800 ms (FindLiveObjects: 0.487000 ms CreateObjectMapping: 0.392800 ms MarkObjects: 5.056000 ms  DeleteObjects: 0.044800 ms)
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3593.
+Memory consumption went from 111.7 MB to 111.7 MB.
+Total: 4.721700 ms (FindLiveObjects: 0.557000 ms CreateObjectMapping: 0.337300 ms MarkObjects: 3.799200 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2805ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (2470ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1629ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (1357ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3596.
+Memory consumption went from 111.7 MB to 111.7 MB.
+Total: 5.190000 ms (FindLiveObjects: 0.383800 ms CreateObjectMapping: 0.551200 ms MarkObjects: 4.211500 ms  DeleteObjects: 0.042200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -694,16 +870,184 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.296389 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(97e661c57bc3a5b4dafbe1488e87c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 265.917063 seconds.
+  path: Assets/Scripts/_Card.cs
+  artifactKey: Guid(07ead838e32e3754bb3c4833895c1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts using Guid(97e661c57bc3a5b4dafbe1488e87c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61149a0b110fae0c3651e8af15c4f8b') in 0.013515 seconds 
+Start importing Assets/Scripts/_Card.cs using Guid(07ead838e32e3754bb3c4833895c1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adce1720f40c67b5fcffb654eb364c82') in 0.015805 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.989095 seconds.
+  path: Assets/Scripts/_CardGameManager.cs
+  artifactKey: Guid(8fd7fcbafdce824489b4f489f509de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/_CardGameManager.cs using Guid(8fd7fcbafdce824489b4f489f509de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5373e7ef6c081f91877b4c303ac0ba77') in 0.067330 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005725 seconds.
+Registered in 0.005142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2598ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (2248ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (1250ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3599.
+Memory consumption went from 111.7 MB to 111.7 MB.
+Total: 5.646200 ms (FindLiveObjects: 0.383700 ms CreateObjectMapping: 0.393000 ms MarkObjects: 4.840100 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.822948 seconds.
+  path: Assets/MemoryCardGame.unity
+  artifactKey: Guid(60339b559a0f24e43b621892a07c7770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MemoryCardGame.unity using Guid(60339b559a0f24e43b621892a07c7770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31671e78841e3032c94bce97543e8ab') in 0.017442 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.559325 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(40f76b9d33be9fd4aa7f00f1f02d2f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(40f76b9d33be9fd4aa7f00f1f02d2f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d78ab8ea97e267d7bbdee3b89712696') in 0.012225 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.742432 seconds.
+  path: Assets/CardGame.unitypackage
+  artifactKey: Guid(a0dfb02ab8ef67b449d0699c5b5c37b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CardGame.unitypackage using Guid(a0dfb02ab8ef67b449d0699c5b5c37b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a90bb8a6a783722a867c413a863c29') in 0.033279 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.797735 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(60339b559a0f24e43b621892a07c7770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Game.unity using Guid(60339b559a0f24e43b621892a07c7770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17520c6d77fc62dd0e77e56ca7439ea') in 0.016136 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.215 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3217ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (2879ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (892ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1702ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (1461ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3603.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 4.512400 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.257300 ms MarkObjects: 3.842900 ms  DeleteObjects: 0.025600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.411124 seconds.
+  path: Assets/_Resources/Images/floorpanel.jpg
+  artifactKey: Guid(4a62ad6020b2a454fb68d2c1860b49a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Resources/Images/floorpanel.jpg using Guid(4a62ad6020b2a454fb68d2c1860b49a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f18a496f5a2c836323a50782470d7b6') in 0.059039 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004939 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -713,40 +1057,40 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.087 seconds
+- Completed reload, in  4.049 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2088ms)
-		BeginReloadAssembly (237ms)
+	ReloadAssembly (4050ms)
+		BeginReloadAssembly (272ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1720ms)
-			LoadAssemblies (157ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (2907ms)
+			LoadAssemblies (205ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1110ms)
+			SetupTypeCache (692ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1896ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (953ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (1697ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (21.9 KB). Loaded Objects now: 3587.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 3.568000 ms (FindLiveObjects: 0.288100 ms CreateObjectMapping: 0.290300 ms MarkObjects: 2.961300 ms  DeleteObjects: 0.027400 ms)
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (21.9 KB). Loaded Objects now: 3603.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 4.236200 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.206400 ms MarkObjects: 3.701600 ms  DeleteObjects: 0.026900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -761,252 +1105,112 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 13.030464 seconds.
-  path: Assets/Prefab/CardPrefab.prefab
-  artifactKey: Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefab/CardPrefab.prefab using Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1526ec14d3e3f977da41cf492e9d12f') in 0.052853 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(6bd8b209bff3ab24d8495478bfc0269a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefab using Guid(6bd8b209bff3ab24d8495478bfc0269a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4900f2c78f8a2da03b00bb71a8dc8c') in 0.014525 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.151703 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(216f74cef49748d4fa55d7484775f0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio using Guid(216f74cef49748d4fa55d7484775f0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4eb6795f12638bd55c4ac6834dce83') in 0.010263 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.659807 seconds.
-  path: Assets/Audio/FD
-  artifactKey: Guid(4a83520c2f6f3e1498146f4c3b385eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/FD using Guid(4a83520c2f6f3e1498146f4c3b385eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa069bc79d02ad09bf6b271d2eef64ab') in 0.012334 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.041681 seconds.
-  path: Assets/Audio/FD/CREAK_Wood_Tree_Creak_04_Quick_mono.wav
-  artifactKey: Guid(d9f4077641fec7542b219c2194f7c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/FD/CREAK_Wood_Tree_Creak_04_Quick_mono.wav using Guid(d9f4077641fec7542b219c2194f7c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b3f7e1c805fe12e33f50de2b0ac997') in 0.074441 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Audio/FD/PUZZLE_Success_Brass_Fanfare_Bright_Wet_stereo.wav
-  artifactKey: Guid(6dfbefc03ba841b4b9dd879cecfb813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/FD/PUZZLE_Success_Brass_Fanfare_Bright_Wet_stereo.wav using Guid(6dfbefc03ba841b4b9dd879cecfb813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97712e14bda2ae3222c4d65f46e879ff') in 0.024190 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.137131 seconds.
-  path: Assets/Sprites/Cards
-  artifactKey: Guid(68947aa0b20f80f4593f4d093bbd4aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards using Guid(68947aa0b20f80f4593f4d093bbd4aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72626a58503ee94d94ca8beb7313ee3') in 0.012190 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.036330 seconds.
-  path: Assets/Sprites/Cards/bull.jpg
-  artifactKey: Guid(d668530d002e8d5469ce8c008bff8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/bull.jpg using Guid(d668530d002e8d5469ce8c008bff8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77321409a2f9a510d92f90469334c73') in 0.046184 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Cards/donkey.jpg
-  artifactKey: Guid(8075e831cd8cc24498b449bda8d24adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/donkey.jpg using Guid(8075e831cd8cc24498b449bda8d24adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4aa774be24878d80fe899e617c16122') in 0.029417 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Cards/lion.jpg
-  artifactKey: Guid(a0a32d086012c1b4da9d6f65f9e2625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/lion.jpg using Guid(a0a32d086012c1b4da9d6f65f9e2625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd530992f1bc32b8685d6d7edf89f025') in 0.025181 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Cards/turtle.jpg
-  artifactKey: Guid(6e8d2c028786d764082ea9146346259b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/turtle.jpg using Guid(6e8d2c028786d764082ea9146346259b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253f6d278bdfe6521c5cabf084c01fc6') in 0.026355 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Cards/dog.jpg
-  artifactKey: Guid(e448a2ad02110dc4c8c7dad23177a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/dog.jpg using Guid(e448a2ad02110dc4c8c7dad23177a0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825b9eb08f246bf0a890b14da73fdb69') in 0.026445 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Cards/cat.jpg
-  artifactKey: Guid(865a75a0968df25439b8193a79ba37f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/cat.jpg using Guid(865a75a0968df25439b8193a79ba37f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b863a3dc0a983157dff506ad553dd55') in 0.024865 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Cards/sheep.jpg
-  artifactKey: Guid(7fff3ddce358eaf4a91d704ffc8d82a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/sheep.jpg using Guid(7fff3ddce358eaf4a91d704ffc8d82a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c94fecc8c10594548da4824a0b0c182') in 0.027959 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/Cards/monkey.jpg
-  artifactKey: Guid(9bc3de9cf8aa02448b379a972c5217a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/monkey.jpg using Guid(9bc3de9cf8aa02448b379a972c5217a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a48a56554b38bf228ab81861d408de7') in 0.026835 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Cards/camel.jpg
-  artifactKey: Guid(1a562a00b08fdcf4083315831d8b5949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/camel.jpg using Guid(1a562a00b08fdcf4083315831d8b5949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2f83c878d6cd8e8ce38751b02feb41') in 0.032346 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Cards/hippo.jpg
-  artifactKey: Guid(29ef1b6172840104c9f894420a6c24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/hippo.jpg using Guid(29ef1b6172840104c9f894420a6c24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ec1ebceb09455b9b8cb3cdae4b68b3') in 0.026201 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Cards/cardback.jpg
-  artifactKey: Guid(531e2065e4cb5224ebadabcfa24ae77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/cardback.jpg using Guid(531e2065e4cb5224ebadabcfa24ae77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c953527a5aee756b8aa85de4de9d9b62') in 0.054097 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Cards/cow.jpg
-  artifactKey: Guid(27816b31fe6ce5b478a98f1030115646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/cow.jpg using Guid(27816b31fe6ce5b478a98f1030115646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74495ca5697ab3ee82569b9ce7308da6') in 0.025893 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Cards/mouse.jpg
-  artifactKey: Guid(5e3cb1eac5f41614d9e0e169b96577ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/mouse.jpg using Guid(5e3cb1eac5f41614d9e0e169b96577ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c85603632589adcc0bd77353868f5b') in 0.023371 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/Cards/pig.jpg
-  artifactKey: Guid(60df95eae4a63a943a48a4e6bf5e5a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/pig.jpg using Guid(60df95eae4a63a943a48a4e6bf5e5a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc37b7b0452a3a2c482437974f235b1') in 0.026301 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Cards/rhino.jpg
-  artifactKey: Guid(390479ad2ba1e444babe101aade6a474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/rhino.jpg using Guid(390479ad2ba1e444babe101aade6a474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c784ff9426ad844999de7ae23ad9bfd') in 0.028737 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Cards/croc.jpg
-  artifactKey: Guid(a68ac71c5cdec5b41bd14734b370014c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/croc.jpg using Guid(a68ac71c5cdec5b41bd14734b370014c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d92cd8794f4241fa7cef2a273a4c48') in 0.049940 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Cards/rabbit.jpg
-  artifactKey: Guid(4c0fe489c35077e46b45dd925382ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Cards/rabbit.jpg using Guid(4c0fe489c35077e46b45dd925382ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d328a36a53c0b3667487e2790f495e') in 0.058954 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.693046 seconds.
-  path: Assets/Prefab/CardPrefab.prefab
-  artifactKey: Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefab/CardPrefab.prefab using Guid(f76d5bbcdd25bcb4f9710b76e6e7caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17e6bc04efce2b5628351e45d1c8fc8') in 0.005680 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005113 seconds.
+Registered in 0.005180 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.986 seconds
+- Completed reload, in  2.716 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2987ms)
-		BeginReloadAssembly (214ms)
+	ReloadAssembly (2718ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (2383ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (523ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (1540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1288ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3606.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 8.352400 ms (FindLiveObjects: 0.506800 ms CreateObjectMapping: 0.324300 ms MarkObjects: 7.112200 ms  DeleteObjects: 0.408100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2800ms)
+		BeginReloadAssembly (215ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2560ms)
-			LoadAssemblies (196ms)
+		EndReloadAssembly (2456ms)
+			LoadAssemblies (147ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (632ms)
+			SetupTypeCache (468ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (1522ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1702ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (54ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (1285ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (1478ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3602.
-Memory consumption went from 112.1 MB to 112.0 MB.
-Total: 4.656700 ms (FindLiveObjects: 0.373800 ms CreateObjectMapping: 0.434600 ms MarkObjects: 3.637900 ms  DeleteObjects: 0.085600 ms)
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3609.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 6.106500 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 1.166900 ms MarkObjects: 4.614200 ms  DeleteObjects: 0.027000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1023,50 +1227,366 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005615 seconds.
+Registered in 0.005213 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.685 seconds
+- Completed reload, in  2.691 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2687ms)
-		BeginReloadAssembly (208ms)
+	ReloadAssembly (2692ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2346ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (1253ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3612.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 4.774000 ms (FindLiveObjects: 0.436600 ms CreateObjectMapping: 0.344000 ms MarkObjects: 3.958400 ms  DeleteObjects: 0.033900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2777ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (2340ms)
-			LoadAssemblies (150ms)
+		EndReloadAssembly (2430ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (536ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (1489ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (160ms)
+			SetupLoadedEditorAssemblies (1477ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (1259ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (1236ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3605.
-Memory consumption went from 112.1 MB to 112.1 MB.
-Total: 5.240400 ms (FindLiveObjects: 0.475400 ms CreateObjectMapping: 0.664000 ms MarkObjects: 4.055900 ms  DeleteObjects: 0.043900 ms)
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3615.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 6.127000 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.345700 ms MarkObjects: 5.421000 ms  DeleteObjects: 0.060100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 655.787277 seconds.
+  path: Assets/Scripts/CoreGame
+  artifactKey: Guid(1874a71fa133cb847ac832002400b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/CoreGame using Guid(1874a71fa133cb847ac832002400b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4366f0e7089953cd86f5b1bf421ed0af') in 0.021032 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.016 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2017ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1676ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1101ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (945ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3618.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 5.196600 ms (FindLiveObjects: 0.293400 ms CreateObjectMapping: 0.235100 ms MarkObjects: 4.625400 ms  DeleteObjects: 0.041200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.163559 seconds.
+  path: Assets/Audio/SFX
+  artifactKey: Guid(4a83520c2f6f3e1498146f4c3b385eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX using Guid(4a83520c2f6f3e1498146f4c3b385eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83653a18b3ee40a243906c48328c4c2') in 0.035944 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2691ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2318ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (499ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1268ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3621.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 4.949600 ms (FindLiveObjects: 0.645600 ms CreateObjectMapping: 0.246700 ms MarkObjects: 4.013400 ms  DeleteObjects: 0.042600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.121 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3122ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2585ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (787ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (1209ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3624.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 6.572300 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.369600 ms MarkObjects: 5.771400 ms  DeleteObjects: 0.043800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2867ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2484ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1633ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1371ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (38.1 KB). Loaded Objects now: 3627.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 6.414800 ms (FindLiveObjects: 0.369200 ms CreateObjectMapping: 0.254600 ms MarkObjects: 4.069500 ms  DeleteObjects: 1.719900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
