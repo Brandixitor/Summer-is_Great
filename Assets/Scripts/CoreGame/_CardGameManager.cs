@@ -299,15 +299,27 @@ public class _CardGameManager : MonoBehaviour
         {
             EndGame();
             AudioPlayer.Instance.PlayAudio(1);
+
+            // Update and display high score
+            HighScore.Instance.UpdateHighScore(gameSize, score);
         }
     }
 
-    // stop game
     private void EndGame()
     {
         gameStart = false;
         panel.SetActive(false);
+
+        // Display high score
+        HighScore.Instance.OnGameSizeChanged(gameSize);
     }
+
+    // Call this method whenever the game size changes
+    public void OnGameSizeChanged()
+    {
+        HighScore.Instance.OnGameSizeChanged(gameSize);
+    }
+
 
     public void GiveUp()
     {
