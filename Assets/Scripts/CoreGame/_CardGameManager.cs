@@ -7,7 +7,6 @@ public class _CardGameManager : MonoBehaviour
 {
     public static _CardGameManager Instance;
     public static int gameSize = 2;
-
     // gameobject instance
     [SerializeField]
     private GameObject prefab;
@@ -39,18 +38,16 @@ public class _CardGameManager : MonoBehaviour
     [SerializeField]
     private Text timeLabel;
     [SerializeField]
-    private Text scoreLabel; // Text object to display the score
+    private Text scoreLabel; // New field to display score
     private float time;
 
     private int spriteSelected;
     private int cardSelected;
     private int cardLeft;
-    private int score; // Variable to keep track of the score
     private bool gameStart;
-
-    private int comboCount; // Track combo count
-    private float comboTimer; // Track time for combo
-    private const float comboTimeLimit = 2.0f; // Time limit for making a combo in seconds
+    private int score;
+    private float lastMatchTime; // Time of the last match
+    private float comboTimeWindow = 1.5f; // Time window for combo in seconds
 
     void Awake()
     {
@@ -61,16 +58,7 @@ public class _CardGameManager : MonoBehaviour
     {
         gameStart = false;
         panel.SetActive(false);
-        PreloadCardImage();
-    }
-
-    // Purpose is to allow preloading of panel, so that it does not lag when it loads
-    // Call this in the start method to preload all sprites at start of the script
-    private void PreloadCardImage()
-    {
-        for (int i = 0; i < sprites.Length; i++)
-            spritePreload.SpriteID = i;
-        spritePreload.gameObject.SetActive(false);
+        HighScore.Instance.OnGameSizeChanged(gameSize);
     }
 
     // Start a game
@@ -86,15 +74,13 @@ public class _CardGameManager : MonoBehaviour
         // renew gameplay variables
         cardSelected = spriteSelected = -1;
         cardLeft = cards.Length;
-        score = 0; // Initialize score
-        comboCount = 0; // Initialize combo count
-        comboTimer = 0; // Initialize combo timer
-        UpdateScoreLabel(); // Update the score display
-
+        score = 0;
+        lastMatchTime = -comboTimeWindow; // Initialize to allow immediate first match
         // allocate sprite to card
         SpriteCardAllocation();
         StartCoroutine(HideFace());
         time = 0;
+        UpdateScoreLabel();
     }
 
     // Initialize cards, size, and position based on size of game
@@ -161,14 +147,12 @@ public class _CardGameManager : MonoBehaviour
         }
 
     }
-
     // reset face-down rotation of all cards
     void ResetFace()
     {
         for (int i = 0; i < gameSize; i++)
             cards[i].ResetRotation();
     }
-
     // Flip all cards after a short period
     IEnumerator HideFace()
     {
@@ -178,7 +162,6 @@ public class _CardGameManager : MonoBehaviour
             cards[i].Flip();
         yield return new WaitForSeconds(0.5f);
     }
-
     // Allocate pairs of sprite to card instances
     private void SpriteCardAllocation()
     {
@@ -216,27 +199,25 @@ public class _CardGameManager : MonoBehaviour
 
                 cards[value].SpriteID = selectedID[i];
             }
-    }
 
+    }
     // Slider update gameSize
     public void SetGameSize()
     {
         gameSize = (int)sizeSlider.value;
         sizeLabel.text = gameSize + " X " + gameSize;
+        HighScore.Instance.OnGameSizeChanged(gameSize);
     }
-
     // return Sprite based on its id
     public Sprite GetSprite(int spriteId)
     {
         return sprites[spriteId];
     }
-
     // return card back Sprite
     public Sprite CardBack()
     {
         return cardBack;
     }
-
     // check if clickable
     public bool canClick()
     {
@@ -244,7 +225,6 @@ public class _CardGameManager : MonoBehaviour
             return false;
         return true;
     }
-
     // card onclick event
     public void cardClicked(int spriteId, int cardId)
     {
@@ -255,29 +235,23 @@ public class _CardGameManager : MonoBehaviour
             cardSelected = cardId;
         }
         else
-        {
-            // second card selected
+        { // second card selected
             if (spriteSelected == spriteId)
             {
                 //correctly matched
                 cards[cardSelected].Inactive();
                 cards[cardId].Inactive();
                 cardLeft -= 2;
-                score++; // Increase the score
 
-                // Check for combo
-                if (comboTimer > 0)
+                // Update score
+                score += 1; // 1 point for a match
+                if (time - lastMatchTime <= comboTimeWindow)
                 {
-                    comboCount++;
-                    score += comboCount; // Apply combo bonus to score
+                    score += 1; // 1 additional point for a combo
                 }
-                else
-                {
-                    comboCount = 1; // Reset combo count
-                }
-                comboTimer = comboTimeLimit; // Reset combo timer
+                lastMatchTime = time; // Update last match time
 
-                UpdateScoreLabel(); // Update the score display
+                UpdateScoreLabel();
                 CheckGameWin();
             }
             else
@@ -285,12 +259,10 @@ public class _CardGameManager : MonoBehaviour
                 // incorrectly matched
                 cards[cardSelected].Flip();
                 cards[cardId].Flip();
-                comboCount = 0; // Reset combo count on failure
             }
             cardSelected = spriteSelected = -1;
         }
     }
-
     // check if game is completed
     private void CheckGameWin()
     {
@@ -298,62 +270,36 @@ public class _CardGameManager : MonoBehaviour
         if (cardLeft == 0)
         {
             EndGame();
-            AudioPlayer.Instance.PlayAudio(1);
-
-            // Update and display high score
             HighScore.Instance.UpdateHighScore(gameSize, score);
+            AudioPlayer.Instance.PlayAudio(1);
         }
     }
-
+    // stop game
     private void EndGame()
     {
         gameStart = false;
         panel.SetActive(false);
-
-        // Display high score
-        HighScore.Instance.OnGameSizeChanged(gameSize);
     }
-
-    // Call this method whenever the game size changes
-    public void OnGameSizeChanged()
-    {
-        HighScore.Instance.OnGameSizeChanged(gameSize);
-    }
-
-
     public void GiveUp()
     {
         EndGame();
     }
-
     public void DisplayInfo(bool i)
     {
         info.SetActive(i);
     }
-
+    // Update score label
+    private void UpdateScoreLabel()
+    {
+        scoreLabel.text = "Score: " + score;
+    }
     // track elasped time
     private void Update()
     {
         if (gameStart)
         {
             time += Time.deltaTime;
-            timeLabel.text = "Time: " + time.ToString("F2") + "s";
-
-            // Update combo timer
-            if (comboTimer > 0)
-            {
-                comboTimer -= Time.deltaTime;
-            }
-            else
-            {
-                comboCount = 0; // Reset combo count when timer expires
-            }
+            timeLabel.text = "Time: " + time.ToString("F2") + "s"; // Format to two decimal places
         }
-    }
-
-    // Update the score display
-    private void UpdateScoreLabel()
-    {
-        scoreLabel.text = "Score: " + score;
     }
 }
