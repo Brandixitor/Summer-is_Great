@@ -349,8 +349,10 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CoreGame/AudioPlayer.cs"
+"Assets/Scripts/CoreGame/HighScore.cs"
 "Assets/Scripts/CoreGame/_Card.cs"
 "Assets/Scripts/CoreGame/_CardGameManager.cs"
+"Assets/Scripts/MainMenu/MainMenu.cs"
 -langversion:9.0
 /deterministic
 /optimize-

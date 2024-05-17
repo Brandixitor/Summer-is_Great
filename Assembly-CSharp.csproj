@@ -59,7 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CoreGame\_Card.cs" />
+    <Compile Include="Assets\Scripts\CoreGame\HighScore.cs" />
     <Compile Include="Assets\Scripts\CoreGame\_CardGameManager.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\CoreGame\AudioPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
